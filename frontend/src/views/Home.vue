@@ -10,14 +10,15 @@
       
       <div class="instructions">
         <div class="instruction-item">
-          <strong>Add a New Model:</strong> Create a <code>.md</code> file in the 
-          <a href="https://github.com/Chenry513/dl/tree/main/dl_tools/markdown_files" target="_blank">markdown_files folder</a>. 
-          Follow the existing format with model details, parameters, and use cases.
+          <strong>Add a New Model:</strong> Create a <code>.md</code> file in 
+          <a href="https://github.com/Chenry513/dl/tree/main/dl_tools/markdown_files" target="_blank" class="github-link">this folder</a>. 
+          Check out <code>INSTRUCTIONS.md</code> for the template format.
         </div>
         
         <div class="instruction-item">
-          <strong>Edit Existing Models:</strong> Update any <code>.md</code> file in the repo to fix errors or add new info. 
-          Changes appear on the site within a minute after merging.
+          <strong>Edit Existing Models:</strong> Update any <code>.md</code> file in 
+          <a href="https://github.com/Chenry513/dl/tree/main/dl_tools/markdown_files" target="_blank" class="github-link">the repo</a> 
+          to fix errors or add info. Changes go live within a minute.
         </div>
       </div>
       
@@ -41,6 +42,19 @@ export default {
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
+  padding: 10px 30px;
+  font-size: 1.1em;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: white;
+  text-decoration: none;
 }
 
 .contribute-section {
@@ -80,12 +94,14 @@ code {
   font-size: 0.9em;
 }
 
-a {
+.github-link {
   color: #007bff;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
-a:hover {
+.github-link:hover {
+  color: #0056b3;
   text-decoration: underline;
 }
 
