@@ -1,7 +1,11 @@
-Django
+Django>=4.2
 djangorestframework
 django-cors-headers
 python-frontmatter
 PyYAML
 pydantic
 rich
+gunicorn
+psycopg2-binary
+whitenoise
+dj-database-url
